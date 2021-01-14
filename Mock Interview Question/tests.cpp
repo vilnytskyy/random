@@ -6,8 +6,8 @@
 
 TEST_CASE("Example 1 - Set")
 {
-    // Example 1 - Node (e) with two parents (b and c)
-    std::cout << "Example 1:\n\n";
+    // Example 1 - Node (e) with two parents (b, c)
+    std::cout << "Example 1: Node (e/5) with two parents (b/2 and c/3)\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -32,7 +32,7 @@ TEST_CASE("Example 1 - Set")
 
 TEST_CASE("Example 1 - Map")
 {
-    // Example 1 - Node (e) with two parents (b and c)
+    // Example 1 - Node (e) with two parents (b, c)
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -55,8 +55,8 @@ TEST_CASE("Example 1 - Map")
 
 TEST_CASE("Example 2 - Set")
 {
-    // Example 2 - Node (e) with two parents (b and c) but is both the left and right child of one parent (c)
-    std::cout << "\nExample 2:\n\n";
+    // Example 2 - Node (e) with two parents (b, c) but is both the left and right child of one parent (c)
+    std::cout << "\nExample 2: Node (e/5) with two parents (b/2 and c/3) but is both the left and right child of one parent (c/3)\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -82,7 +82,7 @@ TEST_CASE("Example 2 - Set")
 
 TEST_CASE("Example 2 - Map")
 {
-    // Example 2 - Node (e) with two parents (b and c) but is both the left and right child of one parent (c)
+    // Example 2 - Node (e) with two parents (b, c) but is both the left and right child of one parent (c)
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -107,7 +107,7 @@ TEST_CASE("Example 2 - Map")
 TEST_CASE("Example 3 - Set")
 {
     // Example 3 - Node (e) with three parents (b, c, d)
-    std::cout << "\nExample 3:\n\n";
+    std::cout << "\nExample 3: Node (e/5) with three parents (b/2, c/3, d/4)\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -164,7 +164,7 @@ TEST_CASE("Example 3 - Map")
 TEST_CASE("Example 4 - Set")
 {
     // Example 4 - Node (h) with four parents (d, e, f, g) and each parent has both left and right children as (h) 
-    std::cout << "\nExample 4:\n\n";
+    std::cout << "\nExample 4: Node (h/8) with four parents (d/4, e/5, f/6, g/7) and each parent has both left and right children as (h/8)\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -245,7 +245,7 @@ TEST_CASE("Example 4 - Map")
 TEST_CASE("Example 5 - Set")
 {
     // Example 5 - Nodes (h, i) with four parents (d, e, f, g) and each left child is (h) and each right child is (i)
-    std::cout << "\nExample 5:\n\n";
+    std::cout << "\nExample 5: Nodes (h/8, i/9) with four parents (d/4, e/5, f/6, g/7) and each left child is (h/8) and each right child is (i/9)\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
@@ -330,7 +330,7 @@ TEST_CASE("Example 5 - Map")
 TEST_CASE("Example 6 - Set")
 {
     // Example 6 - The input tree is already a binary tree
-    std::cout << "\nExample 6:\n\n";
+    std::cout << "\nExample 6: The input tree is already a binary tree\n\n";
 
     Node *a = new Node(1);
     Node *b = new Node(2);
